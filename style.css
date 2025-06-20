@@ -1,0 +1,108 @@
+.navbar {
+  background-color: #222;
+  color: white;
+  display: flex;
+  padding: 15px 15px;
+  justify-content: space-between;
+  border-bottom: solid rebeccapurple 1px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.logo a {
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: #333;
+  padding: 3px 5px;
+  font-weight: bold;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+body {
+  font-family: arial;
+  background-color: #333;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 61px;
+  text-align: center;
+}
+
+.news {
+  background-color: #222;
+  margin: 10px;
+  padding: 10px 13px;
+  border-radius: 15px;
+}
+
+.news-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.news-name {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.news-date {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.news-content {
+  text-align: justify;
+}
+
+.news-content a {
+  color: white;
+}
+
+.footer {
+  position: fixed ;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 61px;
+  background-color: #222;
+  color: white;
+  text-align: center;
+  align-content: center;
+  line-height: 21px;
+  border-top: solid rebeccapurple 1px;
+  border-bottom: solid rebeccapurple 1px;
+  font-size: 17px;
+}
+
+.footer a {
+  color: white;
+}
+
+.discord {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.discord img {
+  height: 18px;
+  width: 18px;
+  border-radius: 2px;
+  margin-right: 2px;
+}
