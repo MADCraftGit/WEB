@@ -43,6 +43,8 @@
   color: gray;
 }
 
+
+
 body {
   font-family: arial;
   background-color: #333;
@@ -51,6 +53,8 @@ body {
   padding-bottom: 68px;
   text-align: center;
 }
+
+
 
 .about {
   background-color: #222;
@@ -81,6 +85,8 @@ body {
   margin-bottom: 2px;
 }
 
+
+
 .instructions {
   background-color: #222;
   margin: 10px;
@@ -108,6 +114,8 @@ body {
   color: white;
 }
 
+
+
 .news {
   background-color: #222;
   margin: 10px;
@@ -116,29 +124,31 @@ body {
   border: solid 1px rebeccapurple;
 }
 
-.news-head {
+.news .head {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.news-name {
+.news .name {
   font-weight: bold;
   font-size: 20px;
 }
 
-.news-date {
+.news .date {
   font-weight: bold;
   font-size: 15px;
 }
 
-.news-content {
+.news .content {
   text-align: justify;
 }
 
-.news-content a {
+.news .content a {
   color: white;
 }
+
+
 
 .image {
   background-color: #222;
@@ -148,16 +158,30 @@ body {
   border: solid 1px rebeccapurple;
 }
 
-.image span {
-  font-size: 20px;
+.image .head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.image .name {
   font-weight: bold;
+  font-size: 20px;
+}
+
+.image .date {
+  font-weight: bold;
+  font-size: 15px;
 }
 
 .image img {
   width: 325px;
-  border-radius: 2px;
+  border-radius: 5px;
   text-align: center;
 }
+
+
 
 .footer {
   position: fixed ;
