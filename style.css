@@ -114,6 +114,11 @@ body {
   color: white;
 }
 
+.instructions img {
+  width: 160px;
+  border-radius: 5px;
+}
+
 
 
 .news {
