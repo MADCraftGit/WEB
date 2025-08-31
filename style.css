@@ -193,7 +193,7 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 61px;
+  height: 78px;
   background-color: #222;
   color: white;
   text-align: center;
@@ -208,13 +208,13 @@ body {
   color: white;
 }
 
-.discord {
+.contacts {
   display: inline-flex;
   align-items: center;
   gap: 5px;
 }
 
-.discord img {
+.contacts img {
   height: 18px;
   width: 18px;
   border-radius: 2px;
