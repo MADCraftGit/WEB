@@ -153,7 +153,25 @@ body {
   color: white;
 }
 
+.link {
+  align-items: center;
+}
 
+.link a {
+  color: white;
+  text-decoration: none;
+  margin: 2px;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: #222;
+  padding: 2px 5px;
+  font-weight: bold;
+  border: solid 1px rebeccapurple;
+}
+
+.link a:hover {
+  color: gray;
+}
 
 .image {
   background-color: #222;
