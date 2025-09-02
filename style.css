@@ -158,6 +158,11 @@ body {
   color: white;
 }
 
+
+#top {
+  scroll-margin-top: 100px;
+}
+
 .img-link {
   align-items: center;
 }
@@ -221,10 +226,26 @@ body {
   text-align: center;
 }
 
+.top-arrow {
+  position: fixed;
+  bottom: 100px;
+  right: 20px;
+  background: #333;
+  border: solid rebeccapurple 1px;
+  border-radius: 10px;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  text-decoration: none;
+}
+
 
 
 .footer {
-  position: fixed ;
+  position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
