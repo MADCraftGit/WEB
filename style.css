@@ -1,3 +1,8 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
 .navbar {
   background-color: #222;
   color: white;
@@ -153,11 +158,11 @@ body {
   color: white;
 }
 
-.link {
+.img-link {
   align-items: center;
 }
 
-.link a {
+.img-link a {
   color: white;
   text-decoration: none;
   margin: 2px;
@@ -171,6 +176,18 @@ body {
 
 .link a:hover {
   color: gray;
+}
+
+#spawn {
+  scroll-margin-top: 60px;
+}
+
+#minihry {
+  scroll-margin-top: 60px;
+}
+
+#new-builds {
+  scroll-margin-top: 60px;
 }
 
 .image {
