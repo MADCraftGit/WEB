@@ -241,8 +241,8 @@ body {
   align-items: center;
   font-size: 35px;
   text-decoration: none;
+  display: none;
 }
-
 
 
 .footer {
