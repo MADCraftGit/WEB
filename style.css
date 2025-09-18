@@ -62,8 +62,9 @@ body {
 
 
 .about {
+  margin: 0 auto;
   background-color: #222;
-  margin: 10px;
+  width: 350px;
   padding: 10px 13px;
   border-radius: 15px;
   border: solid 1px rebeccapurple;
