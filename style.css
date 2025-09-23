@@ -245,10 +245,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 35px;
+  font-size: 30px;
   text-decoration: none;
   display: none;
   opacity: 100%;
+  transform: rotate(-90deg);
 }
 
 
