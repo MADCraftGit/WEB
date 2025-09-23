@@ -235,8 +235,8 @@ body {
 .top-arrow {
   color: white;
   position: fixed;
-  bottom: 90px;
-  right: 10px;
+  bottom: 15px;
+  right: 11px;
   background: #223;
   border: solid rebeccapurple 1px;
   border-radius: 10px;
@@ -273,7 +273,7 @@ body {
   color: white;
 }
 
-.contacts {
+.footer span {
   display: inline-flex;
   align-items: center;
   gap: 5px;
