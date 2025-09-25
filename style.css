@@ -17,8 +17,8 @@ html {
 }
 
 .navbar .new {
-  height: 6px;
-  width: 6px;
+  height: 5px;
+  width: 5px;
   background-color: red;
   border-radius: 50%;
   display: inline-block;
