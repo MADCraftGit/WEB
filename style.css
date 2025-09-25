@@ -16,6 +16,11 @@ html {
   left: 0;
 }
 
+.navbar .live {
+  width: 10px;
+  height: 10px;
+}
+
 .logo a {
   font-size: 22px;
   font-weight: bold;
