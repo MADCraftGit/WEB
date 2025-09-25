@@ -21,6 +21,7 @@ html {
   width: 10px;
   background-color: red;
   margin-left: 3px;
+  border-radius: 50%;
 }
 
 .logo a {
