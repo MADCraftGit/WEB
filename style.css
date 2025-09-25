@@ -16,14 +16,6 @@ html {
   left: 0;
 }
 
-.navbar .new {
-  height: 10px;
-  width: 10px;
-  background-color: red;
-  margin-left: 3px;
-  border-radius: 50%;
-}
-
 .logo a {
   font-size: 22px;
   font-weight: bold;
