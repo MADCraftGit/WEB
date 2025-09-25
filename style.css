@@ -17,6 +17,8 @@ html {
 }
 
 .navbar .new {
+  color: red;
+  margin-left: 2px;
 }
 
 .logo a {
