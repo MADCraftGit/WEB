@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kasa</title>
+</head>
+<body>
+  <h1>KASA 1</h1>
+  <h3>Vývojář: Matěj Bečvář</h3>
+  <div id="produkty">
+    <button onclick="PridatDoKosiku('1', 10)">1</button>
+    <button onclick="PridatDoKosiku('2', 10)">2</button>
+    <button onclick="PridatDoKosiku('3', 10)">3</button>
+    <button onclick="PridatDoKosiku('4', 10)">4</button>
+    
+    <button onclick="PridatDoKosiku('5', 10)">5</button>
+    <button onclick="PridatDoKosiku('6', 10)">6</button>
+    <button onclick="PridatDoKosiku('7', 10)">7</button>
+    
+    <button onclick="PridatDoKosiku('8', 10)">8</button>
+    
+    
+    <button onclick="PridatDoKosiku('9', 10)">9</button>
+    <button onclick="PridatDoKosiku('10', 10)">10</button>
+    
+    
+    <button onclick="PridatDoKosiku('11', 10)">11</button>
+    <button onclick="PridatDoKosiku('12', 10)">12</button>
+    
+    
+    <button onclick="PridatDoKosiku('13', 10)">13</button>
+    <button onclick="PridatDoKosiku('14', 10)">14</button>
+    <button onclick="PridatDoKosiku('15', 10)">15</button>
+    
+    
+    <button onclick="PridatDoKosiku('16', 10)">16</button>
+  </div>
+
+  <div>
+    <p></p>
+    <table>
+      <thead>
+        <tr>
+          <th>Počet</th>
+          <th>Název</th>
+          <th>Cena</th>
+          <th>Akce</th>
+        </tr>
+      </thead>
+      <tbody id="kosik">
+        
+      </tbody>
+    </table>
+    
+    <h2 id="celkovaCena">Celková cena: 0 Kč <button id="platebniTlacitko">Zaplatit</button></h2>
+  </div>
+  
+  
+  <style>
+    body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    }
+
+    #produkty {
+    display: grid;
+    grid-template-columns: repeat(4, 90px);
+    grid-template-rows: repeat(4, 90px);
+    gap: 3px;
+    justify-content: center;
+    }
+
+    #produkty button {
+    background-color: #006400;
+    color: white;
+    font-size: 20px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 3px;
+    }
+
+    table {
+    width: 100%;
+    border-collapse: collapse;
+    border-color: black;
+    }
+
+    th, td {
+    border: 2px solid black;
+    padding: 5px;
+    text-align: center;
+    background-color: #006400;
+    color: white;
+    font-size: 16px;
+    }
+
+    #kosik button {
+    background-color: #006400;
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 0px;
+    }
+
+    #platebniTlacitko {
+    background-color: #006400;
+    color: white;
+    padding: 5px;
+    border: 2px solid black;
+    font-size: 25px;
+    border-radius: 4px;
+    }
+  </style>
+
+  <script>
+    console.log("Script loaded");
+
+    let kosik = [];
+
+    function PridatDoKosiku(nazev, cena) {
+    let existujiciPolozka = kosik.find(p => p.nazev === nazev);
+    
+    if (existujiciPolozka) {
+        existujiciPolozka.pocet += 1;
+    } else {
+        kosik.push({ nazev, cena, pocet: 1 });
+    }
+    
+    VypsatKosik();
+    }
+
+    function VypsatKosik() {
+    let tbody = document.getElementById("kosik");
+    tbody.innerHTML = "";
+    
+    let celkovaCena = 0;
+    
+    kosik.forEach((polozka, index) => {
+        let radek = document.createElement("tr");
+        
+        radek.innerHTML = `
+                <td>${polozka.pocet}</td>
+                <td>${polozka.nazev}</td>
+                <td>${polozka.cena * polozka.pocet} Kč</td>
+                <td><button onclick="OdebratZKosiku(${index})">🗑️🗑️</button></td>
+            `;
+        
+        tbody.appendChild(radek);
+        celkovaCena += polozka.cena * polozka.pocet;
+    });
+    
+    document.getElementById("celkovaCena").firstChild.textContent = `Celková cena: ${celkovaCena} Kč `;
+    }
+
+    function OdebratZKosiku(index) {
+    if (kosik[index].pocet > 1) {
+        kosik[index].pocet--;
+        
+    } else {
+        kosik.splice(index, 1);
+    }
+    VypsatKosik(); // Aktualizace tabulky
+    }
+
+    // Funkce pro vymazání celého košíku po zaplacení
+    document.getElementById("platebniTlacitko").addEventListener("click", () => {
+    kosik = []; // Vyprázdnění pole košíku
+    VypsatKosik(); // Aktualizace tabulky
+    });
+  </script>
+</body>
+</html>
