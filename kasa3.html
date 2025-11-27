@@ -17,7 +17,9 @@
     <button onclick="PridatDoKosiku('Sušenka s čokoládou', 20)">Sušenka s čokoládou</button>
     <button onclick="PridatDoKosiku('Šnek', 10)">Šnek</button>
     <button onclick="PridatDoKosiku('Chlebíček', 60)">Chlebíček</button>
-    <button onclick="PridatDoKosiku('Jednohubka', 10)">Jednohubka</button>
+    <button onclick="PridatDoKosiku('Jedno', 10)">Jedno</button>
+    <button onclick="PridatDoKosiku('Koláč', 25)">Koláč</button>
+    <button onclick="PridatDoKosiku('Bábovka', 10)">Bábovka</button>
   </div>
 
   <div>
@@ -59,7 +61,7 @@
     #produkty {
     display: grid;
     grid-template-columns: repeat(4, 90px);
-    grid-template-rows: repeat(2, 90px);
+    grid-template-rows: repeat(3, 90px);
     gap: 3px;
     justify-content: center;
     }
@@ -67,7 +69,7 @@
     #produkty button {
     background-color: #006400;
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     border: 2px solid black;
     display: flex;
     justify-content: center;
