@@ -42,6 +42,7 @@ html {
   padding: 2px 5px;
   font-weight: bold;
   border: solid 1px #3ba635;
+  box-shadow: 4px 6px 15px rgba(0,0,0,0.5);
 }
 
 .menu a:hover {
@@ -69,6 +70,7 @@ body {
   padding: 11px 15px;
   border-radius: 15px;
   border: solid 1px #3ba635;
+  box-shadow: 4px 6px 15px rgba(0,0,0,0.5);
 }
 
 .about .title {
@@ -102,6 +104,7 @@ body {
   padding: 11px 15px;
   border-radius: 15px;
   border: solid 1px #3ba635;
+  box-shadow: 4px 6px 15px rgba(0,0,0,0.5);
 }
 
 .instructions .title {
@@ -139,6 +142,7 @@ body {
   padding-bottom: 1px;
   border-radius: 15px;
   border: solid 1px #3ba635;
+  box-shadow: 4px 6px 15px rgba(0,0,0,0.5);
 }
 
 .news .head {
@@ -186,6 +190,7 @@ body {
   padding: 2px 5px;
   font-weight: bold;
   border: solid 1px #3ba635;
+  box-shadow: 4px 6px 15px rgba(0,0,0,0.5);
 }
 
 .link a:hover {
@@ -212,6 +217,7 @@ body {
   padding: 11px 15px;
   border-radius: 15px;
   border: solid 1px #3ba635;
+  box-shadow: 4px 6px 15px rgba(0,0,0,0.5);
 }
 
 .image .head {
@@ -250,6 +256,7 @@ body {
   display: none;
   opacity: 100%;
   transform: rotate(-90deg);
+  box-shadow: 4px 6px 15px rgba(0,0,0,0.5);
 }
 
 
