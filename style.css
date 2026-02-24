@@ -4,12 +4,12 @@ html {
 
 
 .navbar {
-  background-color: #222;
+  background-color: #5a3b1e;
   color: white;
   display: flex;
   padding: 12px 10px;
   justify-content: space-between;
-  border-bottom: solid rebeccapurple 1px;
+  border-bottom: solid #3ba635 1px;
   position: fixed;
   top: 0;
   right: 0;
@@ -38,10 +38,10 @@ html {
   margin-left: 10px;
   font-size: 16px;
   border-radius: 5px;
-  background-color: #333;
+  background-color: #5a3b1e;
   padding: 2px 5px;
   font-weight: bold;
-  border: solid 1px rebeccapurple;
+  border: solid 1px #3ba635;
 }
 
 .menu a:hover {
@@ -52,7 +52,7 @@ html {
 
 body {
   font-family: arial;
-  background-color: #333;
+  background-color: #5a3b1e;
   color: white;
   padding-top: 58px;
   padding-bottom: 68px;
@@ -64,11 +64,11 @@ body {
 .about {
   margin: 0 auto;
   margin-bottom: 18px;
-  background-color: #222;
+  background-color: #3b2512;
   width: 340px;
   padding: 11px 15px;
   border-radius: 15px;
-  border: solid 1px rebeccapurple;
+  border: solid 1px #3ba635;
 }
 
 .about .title {
@@ -95,13 +95,13 @@ body {
 
 
 .instructions {
-  background-color: #222;
+  background-color: #3b2512;
   margin: 0 auto;
   width: 340px;
   margin-bottom: 18px;
   padding: 11px 15px;
   border-radius: 15px;
-  border: solid 1px rebeccapurple;
+  border: solid 1px #3ba635;
 }
 
 .instructions .title {
@@ -131,14 +131,14 @@ body {
 
 
 .news {
-  background-color: #222;
+  background-color: #3b2512;
   margin: 0 auto;
   width: 340px;
   margin-bottom: 18px;
   padding: 11px 15px;
   padding-bottom: 1px;
   border-radius: 15px;
-  border: solid 1px rebeccapurple;
+  border: solid 1px #3ba635;
 }
 
 .news .head {
@@ -182,10 +182,10 @@ body {
   margin: 2px;
   font-size: 16px;
   border-radius: 5px;
-  background-color: #222;
+  background-color: #3b2512;
   padding: 2px 5px;
   font-weight: bold;
-  border: solid 1px rebeccapurple;
+  border: solid 1px #3ba635;
 }
 
 .link a:hover {
@@ -205,13 +205,13 @@ body {
 }
 
 .image {
-  background-color: #222;
+  background-color: #3b2512;
   margin: 0 auto;
   width: 340px;
   margin-bottom: 18px;
   padding: 11px 15px;
   border-radius: 15px;
-  border: solid 1px rebeccapurple;
+  border: solid 1px #3ba635;
 }
 
 .image .head {
@@ -237,8 +237,8 @@ body {
   position: fixed;
   bottom: 15px;
   right: 11px;
-  background: #333;
-  border: solid rebeccapurple 1px;
+  background: #5a3b1e;
+  border: solid #3ba635 1px;
   border-radius: 10px;
   height: 50px;
   width: 50px;
@@ -259,13 +259,13 @@ body {
   left: 0;
   right: 0;
   height: 78px;
-  background-color: #222;
+  background-color: #3b2512;
   color: white;
   text-align: center;
   align-content: center;
   line-height: 21px;
-  border-top: solid rebeccapurple 1px;
-  border-bottom: solid rebeccapurple 1px;
+  border-top: solid #3ba635 1px;
+  border-bottom: solid #3ba635 1px;
   font-size: 17px;
 }
 
