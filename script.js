@@ -5,7 +5,7 @@ document.querySelectorAll('.navbar a').forEach(link => {
   link.addEventListener('click', function(e) {
     e.preventDefault();
     
-    this.style.color = 'rebeccapurple';
+    this.style.color = '#6fdc5c';
     
     setTimeout(() => {
       window.location.href = this.href;
