@@ -5,7 +5,7 @@ document.querySelectorAll('.navbar a').forEach(link => {
   link.addEventListener('click', function(e) {
     e.preventDefault();
     
-    this.style.color = '#6fdc5c';
+    this.style.color = '#3ba635';
     
     setTimeout(() => {
       window.location.href = this.href;
