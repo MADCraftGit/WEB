@@ -34,16 +34,24 @@ html {
 }
 
 .menu a {
+  font-family: 'Minecraftia', sans-serif;
   color: white;
   text-decoration: none;
-  margin-left: 10px;
-  font-size: 16px;
+  font-size: 13px;
   border-radius: 5px;
   background-color: #5a3b1e;
   padding: 2px 5px;
   font-weight: bold;
   border: solid 1px #3ba635;
   box-shadow: 4px 6px 15px rgba(0,0,0,0.5);
+}
+
+.menu .space-off {
+  margin-left: 0px;
+}
+
+.menu .space-on {
+  margin-left: 8px;
 }
 
 .menu a:hover {
@@ -295,5 +303,5 @@ body {
   height: 18px;
   width: 18px;
   border-radius: 2px;
-  margin-right: 2px;
+  margin-right: 1px;
 }
