@@ -266,7 +266,7 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 78px;
+  height: 60px;
   background-color: #3b2512;
   color: white;
   text-align: center;
@@ -275,6 +275,10 @@ body {
   border-top: solid #3ba635 1px;
   border-bottom: solid #3ba635 1px;
   font-size: 17px;
+}
+
+#footer-space {
+  margin-right: 5px;
 }
 
 .footer a {
