@@ -29,7 +29,8 @@ html {
 }
 
 .logo a:hover {
-  color: #5a3b1e;
+  color: #3ba635;
+  transition: 200ms;
 }
 
 .menu {
@@ -59,7 +60,9 @@ html {
 }
 
 .menu a:hover {
-  color: #3b2512;
+  color: #3ba635;
+  transform: translateY(-2px);
+  transition: 200ms;
 }
 
 
