@@ -14,6 +14,7 @@ html {
   top: 0;
   right: 0;
   left: 0;
+  box-shadow: 0px 2px 10px rgba(0,0,0,0.5);
 }
 
 .logo a {
@@ -24,6 +25,7 @@ html {
   text-decoration: none;
   margin-right: 0px;
   margin-left: 0px;
+  text-shadow: 4px 4px 2px rgba(0,0,0,0.8);
 }
 
 .logo a:hover {
@@ -45,7 +47,7 @@ html {
   padding: 2px 5px;
   font-weight: bold;
   border: solid 1px #3ba635;
-  box-shadow: 4px 6px 15px rgba(0,0,0,0.5);
+  box-shadow: 4px 6px 15px rgba(0, 0, 0, 0.8);
 }
 
 .menu .space-off {
@@ -214,13 +216,17 @@ body {
 }
 
 #minihry {
-  margin-top: 40px;
+  font-family: 'Minecraftia', sans-serif;
+  margin-top: 30px;
   scroll-margin-top: 60px;
+  text-shadow: 5px 5px 2px rgba(0,0,0,0.5);
 }
 
 #spawn {
-  margin-top: 40px;
+  font-family: 'Minecraftia', sans-serif;
+  margin-top: 30px;
   scroll-margin-top: 60px;
+  text-shadow: 5px 5px 2px rgba(0,0,0,0.5);
 }
 
 .image {
@@ -290,6 +296,7 @@ body {
   border-top: solid #3ba635 1px;
   border-bottom: solid #3ba635 1px;
   font-size: 16px;
+  box-shadow: 0px -2px 10px rgba(0,0,0,0.5);
 }
 
 #footer-space {
