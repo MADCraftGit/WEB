@@ -185,6 +185,12 @@ body {
   align-items: center;
 }
 
+.actual .name {
+  font-weight: bold;
+  font-size: 20px;
+
+}
+
 .news .name {
   font-weight: bold;
   font-size: 20px;
