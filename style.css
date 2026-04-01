@@ -263,6 +263,32 @@ body {
   color: white;
 }
 
+#top {
+  scroll-margin-top: 100px;
+}
+
+
+.top-arrow {
+  font-family: arial;
+  color: white;
+  position: fixed;
+  bottom: 8px;
+  right: 8px;
+  background: #5a3b1e;
+  border: solid #3ba635 1px;
+  border-radius: 10px;
+  height: 44px;
+  width: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  text-decoration: none;
+  display: none;
+  opacity: 100%;
+  transform: rotate(-90deg);
+  box-shadow: 4px 6px 15px rgba(0,0,0,0.5);
+}
 
 .footer {
   font-family: 'Minecraftia', sans-serif;
