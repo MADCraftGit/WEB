@@ -24,10 +24,17 @@ html {
   color: white;
 }
 
+.logo a:hover {
+  color: #3ba635;
+  transform: scale(1.05);
+  transition: 200ms;
+}
+
 .logo-img {
   width: 35px;
   height: 35px;
   margin-right: 5px;
+  box-shadow: 4px 4px 8px rgba(0,0,0,0.8);
 }
 
 .logo-text {
@@ -37,6 +44,7 @@ html {
   flex-direction: column;
   font-weight: bold;
   line-height: 1.1;
+  text-shadow: 4px 4px 8px rgba(0,0,0,0.8);
 }
 
 .logo-text span {
