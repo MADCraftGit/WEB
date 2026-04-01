@@ -18,19 +18,29 @@ html {
 }
 
 .logo a {
-  font-family: 'Minecraftia', sans-serif;
-  font-size: 18px;
-  font-weight: bold;
-  color: white;
+  display: flex;
+  align-items: center;
   text-decoration: none;
-  margin-right: 0px;
-  margin-left: 0px;
-  text-shadow: 4px 4px 8px rgba(0,0,0,0.8);
+  color: white;
 }
 
-.logo a:hover {
-  color: #3ba635;
-  transition: 200ms;
+.logo-img {
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+}
+
+.logo-text {
+  text-align: left;
+  font-family: 'Minecraftia', sans-serif;
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  line-height: 1.1;
+}
+
+.logo-text span {
+  font-size: 18px;
 }
 
 .menu {
