@@ -54,7 +54,7 @@ html {
 .menu {
   justify-content: space-around;
   width: 100%;
-  max-width: 250px;
+  max-width: 300px;
   display: flex;
   align-items: center;
 }
