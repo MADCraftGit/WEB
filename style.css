@@ -297,6 +297,7 @@ body {
 }
 
 .footer {
+  box-shadow: 0px 0px 20px rgba(0,0,0,1);
   font-family: 'Minecraftia', sans-serif;
   position: fixed;
   padding-left: 60px;
@@ -313,7 +314,6 @@ body {
   border: solid #3ba635 1px;
   border-radius: 8px;
   font-size: 16px;
-  box-shadow: 0px -4px 10px rgba(0,0,0,0.8);
 }
 
 .footer .contacts {
