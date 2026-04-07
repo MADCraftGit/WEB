@@ -299,6 +299,8 @@ body {
 .footer {
   font-family: 'Minecraftia', sans-serif;
   position: fixed;
+  padding-left: 10px;
+  padding-right: 10px;
   bottom: 0;
   left: 0;
   right: 0;
