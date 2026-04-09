@@ -88,7 +88,7 @@ body {
   background-color: #5a3b1e;
   color: white;
   padding-top: 65px;
-  padding-bottom: 55px;
+  padding-bottom: 60px;
   text-align: center;
 }
 
@@ -149,7 +149,7 @@ body {
   background-color: #3b2512;
   margin: 0 auto;
   width: 340px;
-  margin-bottom: 18px;
+  margin-bottom: 10px;
   padding: 11px 15px;
   border-radius: 15px;
   border: solid 1px #3ba635;
@@ -178,7 +178,7 @@ body {
 .instructions {
   background-color: #3b2512;
   margin: 0 auto;
-  margin-bottom: 18px;
+  margin-bottom: 10px;
   padding: 11px 15px;
   border-radius: 15px;
   border: solid 1px #3ba635;
@@ -231,11 +231,10 @@ body {
 }
 
 .rules-content {
-  font-size: 18px;
   border: solid #3ba635 1px;
   background: #3b2512;
-  padding: 20px;
-  width: 90%;
+  padding: 10px 15px 0px 15px;
+  width: 85%;
   max-width: 400px;
   border-radius: 15px;
   text-align: center;
@@ -244,7 +243,17 @@ body {
   box-shadow: 0px 0px 20px rgba(0,0,0,1);
 }
 
-.rules .active .modal-content {
+.rules .title {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.rules .content {
+  line-height: 22px;
+}
+
+.rules.active .rules-content {
   transform: scale(1);
 }
 
