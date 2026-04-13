@@ -11,6 +11,7 @@ window.addEventListener("scroll", function() {
   }
 });
 
+
 const rules = document.getElementById("rulesID");
 const btn = document.getElementById("openRules");
 

@@ -235,18 +235,19 @@ body {
   width: 85%;
   max-width: 400px;
   border-radius: 15px;
-  text-align: center;
   transform: scale(0.7);
   transition: 0.3s ease;
   box-shadow: 0px 0px 20px rgba(0,0,0,1);
 }
 
 .rules .title {
+  text-align: center;
   font-weight: bold;
   font-size: 18px;
 }
 
 .rules .content {
+  text-align: left;
   line-height: 22px;
 }
 
